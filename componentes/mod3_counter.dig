@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>2bit_counter.dig</elementName>
+      <elementAttributes/>
+      <pos x="2140" y="1160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="2140" y="1180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="2140" y="1200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>En</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2060" y="1160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Clr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2060" y="1200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Clock</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2060" y="1240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Q0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2240" y="1160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Q1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="2240" y="1200"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="2060" y="1200"/>
+      <p2 x="2080" y="1200"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1200"/>
+      <p2 x="2240" y="1200"/>
+    </wire>
+    <wire>
+      <p1 x="2080" y="1220"/>
+      <p2 x="2140" y="1220"/>
+    </wire>
+    <wire>
+      <p1 x="2060" y="1240"/>
+      <p2 x="2140" y="1240"/>
+    </wire>
+    <wire>
+      <p1 x="2060" y="1160"/>
+      <p2 x="2140" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="2200" y="1160"/>
+      <p2 x="2240" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="2200" y="1180"/>
+      <p2 x="2220" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="2080" y="1200"/>
+      <p2 x="2080" y="1220"/>
+    </wire>
+    <wire>
+      <p1 x="2220" y="1180"/>
+      <p2 x="2220" y="1200"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
